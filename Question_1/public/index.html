@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+</head>
+<body>
+    <h1>Click to get Hello from Node.js</h1>
+    <button onclick="fetchHello()">Get Hello</button>
+    <p id="message"></p>
+    <script>
+        function fetchHello(){
+            fetch("/getHello")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("message").innerText = data;
+            })
+        }
+    </script>
+</body>
+</html>

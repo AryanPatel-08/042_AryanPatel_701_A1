@@ -1,0 +1,8 @@
+# better-date
+
+🗓️ Simple and useful utilities for working with JavaScript dates.
+
+## Installation
+
+```bash
+npm install better-date

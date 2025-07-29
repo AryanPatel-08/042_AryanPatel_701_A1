@@ -1,0 +1,9 @@
+{
+  "name": "question_11-better-date",
+  "version": "1.0.0",
+  "description": "Simple and useful utilities for working with dates.",
+  "main": "index.js",
+  "keywords": ["date", "format", "relative-time", "leap-year"],
+  "author": "Your Name",
+  "license": "MIT"
+}

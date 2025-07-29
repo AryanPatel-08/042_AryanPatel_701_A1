@@ -1,0 +1,15 @@
+{
+  "name": "question_8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "greet": "echo \"Running tests...\" && exit 0",
+    "test": "node sample.js",
+    "build": "echo \"Building project...\"",
+    "clean": "echo \"Cleaning up...\" && del /q dist\\*"
+  },
+  "author": "",
+  "license": "ISC"
+}
